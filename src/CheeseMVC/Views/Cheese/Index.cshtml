@@ -15,7 +15,7 @@
         <tr>
             <td>@cheese.Name</td>
             <td>@cheese.Description</td>
-            <td>@cheese.Category</td>
+            <td>@cheese.Category.Name</td>
         </tr>
     }
 </table>
@@ -26,3 +26,4 @@
 }
 
 <p><a asp-controller="Cheese" asp-action="Add">Add Cheese</a></p>
+<p><a asp-controller="Cheese" asp-action="Remove">Remove Cheese</a></p>
