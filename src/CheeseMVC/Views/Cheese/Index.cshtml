@@ -7,7 +7,7 @@
     <tr>
         <th>Name</th>
         <th>Description</th>
-        <td>Category</td>
+        <th>Category</th>
     </tr>
 
     @foreach (var cheese in Model)
@@ -25,5 +25,5 @@
     <p>No cheeses yet!</p>
 }
 
-<p><a asp-controller="Cheese" asp-action="Add">Add Cheese</a></p>
-<p><a asp-controller="Cheese" asp-action="Remove">Remove Cheese</a></p>
+<a asp-controller="Cheese" asp-action="Add">Add |</a>
+<a asp-controller="Cheese" asp-action="Remove">Remove</a>
